@@ -49,7 +49,7 @@ voteKickButtonMonitor()   // The Kick Button Monitor
 			self thread votekickText();
 			self thread func_whotokick();
 		}
-		wait 0.05; // This is a timer function
+		wait 0.05; // This is a timer function, Which is used as a delay
 	}
 }
 
